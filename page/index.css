@@ -2,8 +2,9 @@
 .container #home-page {
   width: 100%;
   min-height: 100vh;
+  height: 1004px;
   padding: 41px 140px 257px 135px;
-  background-image: url("../assets/image/bg-image.svg");
+  background-image: url("../assets/image/bg-image.png");
   background-size: 100%;
   background-repeat: none;
 }
@@ -114,26 +115,35 @@
   line-height: normal;
   letter-spacing: 1.28px;
 }
+.container #service-page {
+  position: relative;
+}
 .container #service-page .collaj-box {
-  /* background-image: url('../assets/image/Rectangle\ 2.svg'); */
+  width: 88%;
+  position: relative;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f9d9aa;
+  border-radius: 50px;
 }
 .container #service-page .collaj-box ul {
-  background-color: #F9D9AA;
-  width: 88%;
-  border-radius: 50px;
-  margin: auto;
-  padding: 50px;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 100px;
 }
 .container #service-page .collaj-box ul li {
   width: 30%;
-  height: 373px;
   padding: 6px;
   background-image: url("../assets/image/Rectangle 6.png");
   background-size: 100% 100%;
   background-repeat: none;
   /* background-color: white; */
   fill: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
 }
 .container #service-page .collaj-box ul li .li-container {
   padding: 20px;
@@ -149,6 +159,10 @@
 }
 .container #service-page .collaj-box ul li .coffe {
   width: 100%;
+  margin-top: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .container #service-page .collaj-box ul li .coffe h3 {
   color: var(--Secondary, #2f2105);
@@ -171,4 +185,224 @@
 }
 .container #service-page .collaj-box ul li .button {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
 }
+.container #service-page .collaj-box ul li .button .btn-box button {
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid var(--Primary, #ff902b);
+}
+.container #service-page .collaj-box ul li .button .btn-box button a {
+  padding: 10px;
+  color: var(--Primary, #ff902b);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+.container #service-page .collaj-box ul li .button .btn-box .second-btn {
+  margin-left: 24px;
+  border-radius: 8px;
+  border: 2px solid #ffd28f;
+}
+.container #service-page .collaj-box ul li .button .btn-box .second-btn a {
+  color: #ffd28f;
+}
+.container #service-page .collaj-box ul li:nth-child(2) .li-container .button button {
+  border-radius: 8px;
+  border: 2px solid #ffd28f;
+}
+.container #service-page .collaj-box ul li:nth-child(2) .li-container .button button a {
+  color: #ffd28f;
+}
+.container #service-page .collaj-box ul li:last-child .li-container .button button {
+  border-radius: 8px;
+  border: 2px solid #ffd28f;
+}
+.container #service-page .collaj-box ul li:last-child .li-container .button button a {
+  color: #ffd28f;
+}
+.container #service-page .service-box {
+  padding: 0 135px 208px 132px;
+}
+.container #service-page .service-box h5 {
+  margin-bottom: 32px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.container #service-page .service-box ul {
+  display: flex;
+}
+.container #service-page .service-box ul li {
+  display: flex;
+  width: 30%;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.container #service-page .service-box ul li h6 {
+  color: var(--Secondary, #2f2105);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+.container #service-page .service-box ul li p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.container #about-page {
+  padding: 64px 188px 62px 235px;
+  background-image: url("../assets/image/bg-image (1).svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.container #about-page .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container #about-page .box .img img {
+  width: 370.21px;
+  height: 509.216px;
+}
+.container #about-page .box .text-box h1 {
+  margin-bottom: 23px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.container #about-page .box .text-box h2 {
+  width: 100%;
+  margin-bottom: 15px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+.container #about-page .box .text-box p {
+  width: 100%;
+  margin-bottom: 31px;
+  color: var(--light, #7e7d7a);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.container #about-page .box .text-box button {
+  display: flex;
+  width: 142px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 33px;
+  background: var(--Secondary, #2f2105);
+}
+.container #about-page .box .text-box button a {
+  color: #f4ae26;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container #menu-page {
+  width: 100%;
+  padding: 120px 155px;
+}
+.container #menu-page h1 {
+  margin-bottom: 37px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.container #menu-page ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 40px;
+}
+.container #menu-page ul li {
+  width: 343.966px;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container #menu-page ul li img {
+  border-radius: 12px;
+}
+.container #menu-page ul li .special-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container #menu-page ul li .special-menu h3 {
+  color: var(--Secondary, #2f2105);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+.container #menu-page ul li .special-menu h4 {
+  color: var(--Secondary, #2f2105);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.96px;
+}
+.container #menu-page ul li .order {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container #menu-page ul li .order p {
+  color: var(--light, #7e7d7a);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}/*# sourceMappingURL=index.css.map */
