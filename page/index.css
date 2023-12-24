@@ -273,15 +273,20 @@
   letter-spacing: 0.72px;
 }
 .container #about-page {
-  padding: 64px 188px 62px 235px;
+  padding: 0 188px 0 235px;
   background-image: url("../assets/image/bg-image (1).svg");
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 .container #about-page .box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+.container #about-page .box .img {
+  position: relative;
+  bottom: 62px;
 }
 .container #about-page .box .img img {
   width: 370.21px;
@@ -405,4 +410,134 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.56px;
+}
+.container #about-us-page .container-2 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 120px 0 120px 136px;
+  display: flex;
+  justify-content: space-between;
+}
+.container #about-us-page .container-1 {
+  position: absolute;
+  z-index: 0;
+}
+.container #about-us-page .text-container h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.container #about-us-page .text-container p {
+  color: var(--light, #7e7d7a);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container #about-us-page ul {
+  display: flex;
+}
+.container #about-us-page ul li {
+  position: relative;
+  margin-right: 40px;
+}
+.container #about-us-page ul li .card {
+  width: 230px;
+  padding: 12px;
+  position: absolute;
+  bottom: 24px;
+  left: 30px;
+  border-radius: 8px;
+  border: 6px solid rgba(255, 211, 144, 0.62);
+  background: #ffcb7c;
+}
+.container #about-us-page ul li .card h2 {
+  color: var(--Secondary, #2f2105);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.container #about-us-page ul li .card h3 {
+  width: 213px;
+  color: var(--Secondary, #2f2105);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.56px;
+}
+.container #form-page {
+  width: 100%;
+  padding: 120px 135px;
+}
+.container #form-page form {
+  padding: 133px 273px;
+  border-radius: 24px;
+  background-image: url("../assets/image/unsplash_ftA71vetxuo.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container #form-page form h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+}
+.container #form-page form .input-box {
+  display: flex;
+  align-items: center;
+}
+.container #form-page form .input-box input {
+  width: 630px;
+  position: relative;
+  padding: 17px 150px 19px 16px;
+  border-radius: 42px;
+  background: #fff;
+}
+.container #form-page form .input-box input placeholder {
+  color: var(--light, #7e7d7a);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+.container #form-page form .input-box button {
+  position: absolute;
+  right: 485px;
+  display: inline-flex;
+  height: 44px;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 33px;
+  background: var(--Secondary, #2f2105);
+  box-shadow: 0px 4px 32px 0px rgba(223, 195, 124, 0.25);
+}
+.container #form-page form .input-box button a {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }/*# sourceMappingURL=index.css.map */
